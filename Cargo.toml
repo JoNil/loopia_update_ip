@@ -1,0 +1,6 @@
+[package]
+name = "loopia_update_ip"
+version = "0.1.0"
+authors = ["Jonathan Nilsson <jonathan@voysys.se>"]
+
+[dependencies]
