@@ -8,6 +8,7 @@ edition = "2021"
 env_logger = "0.11"
 log = "0.4"
 public-ip-addr = "0.1"
+reqwest = { version = "0.11", default-features = false, features = ["rustls-tls-webpki-roots"] }
 tokio = "1"
 tokio-cron-scheduler = "0.10"
-xmlrpc = "0.15"
+xmlrpc = { version = "0.15", default-features = false, features = ["http"] }
