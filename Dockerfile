@@ -13,5 +13,4 @@ FROM scratch
 
 COPY --from=builder /usr/src/loopia_update_ip/target/x86_64-unknown-linux-musl/release/loopia_update_ip .
 
-# Set the binary as the entrypoint of the container
 ENTRYPOINT ["./loopia_update_ip"]
